@@ -1,6 +1,10 @@
-{
-  "name": "flarelink-worker",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {}
-}
+name = "flarelink-worker"
+main = "index.js"
+compatibility_date = "2025-09-02" 
+
+[triggers]
+crons = []
+
+[[kv_namespaces]]
+binding = "FLARELINK_KV"
+id = "" 
